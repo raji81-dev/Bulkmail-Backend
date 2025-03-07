@@ -21,8 +21,8 @@ credential.find().then(function(data){
          },
        });
        
-app.post("/sendemail",function(req,res){
-    debugger
+app.post("/",function(req,res){
+    
         var msg=req.body.msg
         var emailList=req.body.emailList
      new Promise(async  function(resolve,reject){
